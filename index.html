@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicios de JS</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="nav-brand">Variações de Nomes</h1>
+    </nav>
+    
+    <main class="container">
+        <div>
+            <label class="label" for="component-name">Digite seu nome</label>
+            <input type="text" class="input" placeholder="Seu Nome" id="your-name" autocomplete="off">
+        </div>
+    
+        <table class="table" border="1">
+            <thead>
+                <tr>
+                    <th width="200px">Variação</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>Número de Caracteres</td>
+                        <td id="answer1"></td>
+                    </tr>
+                    <tr>
+                        <td>Primeira Letra</td>
+                        <td id="answer2"></td>
+                    </tr>
+                    <tr>
+                        <td>última Letra</td>
+                        <td id="answer3"></td>
+                    </tr>
+                    <tr>
+                        <td>Minúsculo</td>
+                        <td id="answer4"></td>
+                    </tr>
+                    <tr>
+                        <td>Maiúsculo</td>
+                        <td id="answer5"></td>
+                    </tr>
+                    <tr>
+                        <td>Primeira Letra Maiúscula (Capitalize)</td>
+                        <td id="answer6"></td>
+                    </tr>
+                </tbody>
+        </table>
+    </main>
+
+    <script type="module" src="script.js"></script>      
+    
+</body>
+</html>
